@@ -1,0 +1,259 @@
+#yellowtube{
+    top: 0;
+    left: 0;
+    width: 15%;
+    margin-left: 10%;
+}
+#woman{
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+    width: 15%
+}
+#pinktube{
+    bottom: 0;
+    left: 0;
+    width: 15%;
+}
+#tubewoman{
+    bottom: 0;
+    right: 0;
+    width: 15%;
+}
+#human{
+    width: 35%;
+}
+
+#sec1{
+    background-image: url(../img/sec1/sec1_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #60bfe2;
+    .bg_water{
+        .textwrap{
+            padding-top: 7%;
+            h3{
+                margin: 0;
+                font-weight: 600;
+                @media(max-width: 768px){
+                    font-size: 1rem;
+                }
+            }
+            p{
+                font-size: 9rem;
+                font-weight: 600;
+                color: #172cce;
+                @media(max-width: 768px){
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}
+#sec2{
+    background-color: #60bfe2;
+    height: 100%;
+    .textwrap2{
+        p{
+            font-weight: 600;
+            color: white;
+            font-size: 4rem;
+            @media(max-width: 768px){
+                font-size: 2rem;
+            }
+        }
+    }
+    .circlewrap{
+        .benefit{
+            .early,
+            .free,
+            .sale{
+                width: 23vw;
+                height: 23vw;
+                min-width: 223px;
+                min-height: 223px;
+                max-width: 360px;
+                max-height: 360px;
+                background-color: white;
+                border-radius: 50%;
+                flex-direction: column;
+            }
+            p,
+            b{
+                color: white;
+                font-size: 2rem;
+                @media(max-width: 768px){
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+#sec3{
+    .city{
+        .textwrap3{
+            p{
+                font-size: 2rem;
+                @media(max-width: 768px){
+                    font-size: 1.5rem;
+                }
+            }
+            b{
+                font-size: 4rem;
+                @media(max-width: 768px){
+                    font-size: 2rem;
+                }
+            }
+        }
+        .pointwrap{
+            .point1,
+            .point2,
+            .point3{
+                position: relative;
+                p{
+                    font-family: 'GothicB';
+                    font-size: 1.5rem;
+                    @media(max-width: 768px){
+                        font-size: 1.1rem;
+                        font-family: 'GothicM';
+                    }
+                }
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                    background-color: #344aef;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    transform: translate(-40%, -40%);
+                    color: #f5e85a;
+                    font-family: GothicB;
+                }
+            }
+        }
+    }
+    .textwrap4{
+        p{
+            font-size: 2rem;
+            @media(max-width: 768px){
+                font-family: 'GothicB';
+            }
+        }
+        b{
+            font-size: 4rem;
+            font-family: 'GothicB';
+            @media(max-width: 768px){
+                display: none;
+            }
+        }
+    }
+    .best{
+        .imgwrap{
+            img{
+                max-width: 90%;
+            }
+        }
+        .pool{
+
+            @media(max-width: 767px){
+                text-align: center;
+            }
+            .subject{
+                font-size: 2rem;
+                font-family: 'GothicB';
+                .blue{
+                    color: #476fc6;
+                    @media(max-width: 767px){
+                        display: none;
+                    }
+                }
+                @media(max-width: 767px){
+                    font-family: 'GothicM';
+                    span{
+                        font-size: 1rem;
+                    }
+                }
+                
+            }
+            .middleT{
+                font-family: 'GothicM';
+                font-size: 1.2rem;
+
+            }
+            .hightlight{
+                background-color: #f7ec6c;
+                width: fit-content;
+                font-family: 'GothicM';
+                font-size: 1.2rem;
+                @media(max-width: 767px){
+                    width: unset;
+                    color: red;
+                    font-family: 'GothicL';
+                    background-color: unset;
+                }
+            }
+        }
+    }
+}
+#mySwiper{
+    .swiper-pagination{
+        transform: translateY(60%);
+    }
+}
+#sec4{
+    background-color: #344aef;
+    background-size: 100%;
+    .textwrap5{
+        .pakege{
+            font-size: 4rem;
+            font-family: 'GothicB';
+            color: #f7ec6c;
+            @media(max-width: 768px){
+                font-size: 3rem;
+            }
+            span{
+                @media(max-width: 768px){
+                    display: none;
+                }
+            }
+        }
+        .check{
+            color: white;
+            font-size: 1.2rem;
+            .under{
+                @media(max-width: 375px){
+                    display: none;
+                }
+            }
+            span{
+                @media(max-width: 768px){
+                    display: none;
+                    font-family: 'GothicB';
+                }
+            }
+        }
+    }
+    .textwrap6{
+        padding: 0 5%;
+        p,
+        .maximum{
+            color: white;
+            margin-bottom: 0;
+            font-size: 1.2rem;
+        }
+    }
+    .typeA,
+    .typeB,
+    .typeC{
+        .maximum{
+            width: fit-content;
+            padding: 1px;
+            background-color: #f55d50;
+            border-radius: 5px;
+        }
+    }
+}
